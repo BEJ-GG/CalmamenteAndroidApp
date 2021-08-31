@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cadastro">
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="412dp"
+        android:layout_height="83dp"
+        android:layout_marginBottom="740dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bgmenu" />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="303dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="55dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="381dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="51dp"
+        android:text="Antes de continuarmos precisamos que você se cadastre"
+        android:textColor="#000"
+        android:textSize="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="332dp"
+        android:layout_height="325dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="261dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView15"
+        app:srcCompat="@drawable/bgmenu"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="43dp"
+        android:layout_height="20dp"
+        android:text="Nome:"
+        android:textColor="#000"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="251dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:text="Sobrenome:"
+        android:textColor="#000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="247dp"
+        android:layout_height="31dp"
+        android:background="@drawable/login_email_text"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="209dp"
+        android:layout_height="31dp"
+        android:background="@drawable/login_email_text"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="288dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="45dp"
+        android:layout_height="20dp"
+        android:text="Email:"
+        android:textColor="#000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="246dp"
+        android:layout_height="31dp"
+        android:background="@drawable/login_email_text"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="47dp"
+        android:layout_height="20dp"
+        android:text="Senha:"
+        android:textColor="#000"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="121dp"
+        android:layout_height="31dp"
+        android:background="@drawable/login_email_text"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="118dp"
+        android:layout_height="31dp"
+        android:background="@drawable/login_email_text"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="367dp" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="153dp"
+        android:layout_height="25dp"
+        android:layoutDirection="rtl"
+        android:text="Mostrar senha"
+        android:textColor="#000"
+        android:textSize="15dp"
+        android:tittle="switch2"
+        tools:ignore="MissingConstraints,UseSwitchCompatOrMaterialXml"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="411dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="132dp"
+        android:layout_height="44dp"
+        android:background="@drawable/button_entrar"
+        android:text="Cadastrar"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
