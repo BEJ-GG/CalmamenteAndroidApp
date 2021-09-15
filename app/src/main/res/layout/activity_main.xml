@@ -60,7 +60,7 @@
         android:layout_height="44dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView13"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/bgmenu"
@@ -129,9 +129,14 @@
         android:id="@+id/imageView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login"
         app:srcCompat="@drawable/imgbg1"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="138dp" />
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -179,19 +184,21 @@
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="201dp"
+        android:layout_height="22dp"
         android:layout_marginStart="167dp"
         android:layout_marginTop="2dp"
         android:layout_marginEnd="168dp"
         android:layout_marginBottom="20dp"
         android:text="contatobejgg@gmail.com"
         android:textColor="#FFFFFF"
-        android:textSize="7dp"
+        android:textSize="17dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView10"
         app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
         app:layout_constraintTop_toBottomOf="@+id/imageView18"
+        app:layout_constraintVertical_bias="0.166"
         tools:ignore="MissingConstraints" />
 
     <ImageView
