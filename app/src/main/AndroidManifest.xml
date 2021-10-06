@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Calmamente">
-        <activity android:name=".ChatBot"></activity>
+        <activity android:name=".QueroMeAcalmar"></activity>
+        <activity android:name=".EstouMaisCalmo" />
+        <activity android:name=".ChatBot" />
         <activity android:name=".Login" />
         <activity android:name=".Cadastro" />
         <activity android:name=".MainActivity">

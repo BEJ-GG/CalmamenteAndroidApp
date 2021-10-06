@@ -25,6 +25,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        fun onEstouEmCrise(v: View?) {
+
+            val intent = Intent(this, EstouMaisCalmo::class.java)
+            startActivity(intent)
+        }
+
     }
 }
     /*
